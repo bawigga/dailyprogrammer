@@ -3,6 +3,25 @@
 ---
 [[2015-06-24] Challenge #220 [Intermediate] It's Go time!](https://www.reddit.com/r/dailyprogrammer/comments/3axjac/20150624_challenge_220_intermediate_its_go_time/)
 
+## Example Output
+```
+┏ ┳ ┳ ┳ ◉ ◉ ┳ ┳ ┓
+┣ ╋ ◉ ◉ ◎ ◎ ◎ ◉ ┫
+┣ ╋ ◉ ◎ ◎ ◎ ◎ ◉ ┫
+┣ ◉ ◉ ◎ ◎ ◎ ◎ ◉ ┫
+┣ ◉ ◉ ◉ ◉ ◉ ◉ ◉ ┫
+┣ ◉ ◎ ◎ ◎ ◎ ◉ ◉ ┫
+┣ ◉ ◎ ◉ ◎ ◎ ◉ ◉ ┫
+┣ ◉ ◎ ◉ ◎ ◎ ◉ ◉ ┫
+┣ ◉ ◉ ◉ ◎ ◎ ◉ ◉ ┫
+┣ ╋ ╋ ╋ ◉ ◎ ◉ ╋ ┫
+┗ ┻ ┻ ┻ ◉ ┻ ┻ ┻ ┛
+
+White's turn!
+
+Solutions: {'[0, 6]': 11, '[10, 5]': 13}
+```
+
 ## Requirements
 
 ### Input Description
