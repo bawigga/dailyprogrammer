@@ -16,7 +16,7 @@ def main():
     board = Board('scenario.txt')
     print Goban(board)
     print "{0}'s turn!\n".format('White' if board.player == 'w' else 'Black')
-    print board.solve()
+    print 'Solutions: ' + str(board.solve())
 
 if __name__ == '__main__':
     main()

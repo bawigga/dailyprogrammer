@@ -96,4 +96,10 @@ class Board:
                     logger.debug('------------')
                     if len(liberties) == 1:
                         solutions.append({"point": liberties[0], "captured_stones": connected_stones})
-        return sorted(solutions)
+
+        combined_solutions = {}
+        for point in solutions:
+            key = str(point['point'])
+            combined_solutions[key] = combined_solutions.get(key, 0) + point["captured_stones"]
+
+        return combined_solutions
